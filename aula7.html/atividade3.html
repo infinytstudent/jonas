@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let temperatura=prompt("digíte a temperatura em graus celcius")
+if(temperatura>-273){
+    function converter(a){return(`equivale a ${a*1.8+32/1} graus Fahrenheit e ${a-273} graus Kelvin`)}
+    let saida=converter(temperatura)
+    function mostrar(a){console.log(a)}
+    mostrar(saida)
+}
+else{console.log("isso é fisicamente impossível")}
+
+    </script>
+</body>
+</html>
